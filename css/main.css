@@ -1,0 +1,160 @@
+body {
+	background-color: #E55812;
+	font-family: 'Krub', sans-serif;
+}
+
+.background {
+	background-color: #E55812;
+}
+
+.borders {
+    border: 10px solid #854D27;
+    background-color: #DD7230;
+}
+
+.title {
+    color: #9448BC;
+}
+
+.test2 {
+    margin-bottom: 60px;
+}
+
+.test3 {
+    margin-bottom: 20px;
+}
+
+.test4 {
+    margin-top: 20px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.skydiving {
+	width: 300px;
+	height: 300px;
+}
+
+.test {
+	z-index: 100;
+	margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 200;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    z-index: 200;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.info {
+	border: 10px solid #7699D4;
+	background-color: #63B4D1;
+}
+
+p {
+	color: #250001;
+}
+
+h1 {
+	color: #6539AD;
+}
+
+h2 {
+	color: #6539AD;
+}
+
+.info2 {
+    line-height: 22px;
+}
+
+.contact {
+    color: red;
+}
+
+.nav {
+    background-color: #95C623;
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #008cba;
+}
+.container2:hover .overlay{
+    opacity: .9;
+}
+
+.overlayBottom{
+    width: 84%;
+    height: 0;
+    bottom:0;
+    left:0;
+    background-color: grey;
+}
+.container2:hover .overlayBottom {
+    height: 100%;
+}
+
+.info2 {
+    line-height: 38px;
+}
+
+.captions {
+    color: white;
+}
